@@ -62,7 +62,7 @@ const App  = ()=> {
         />
         <div className="flex items-center my-3"> {/* separator div */}
           <div className="h-0.5 bg-gray-500 w-full"></div>
-          <svg role="button" onClick={()=> monthOld()} className="p-2 rounded-full bg-violet-600 cursor-pointer hover:bg-black transition duration-200" xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" strokeWidth="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+          <svg role="button" onClick={()=> yearsOld()} className="p-2 rounded-full bg-violet-600 cursor-pointer hover:bg-black transition duration-200" xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" strokeWidth="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
         </div>
         <Results 
           datesReference={datesReference}
